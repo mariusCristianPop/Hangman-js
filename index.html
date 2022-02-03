@@ -8,6 +8,16 @@
     <title>Hangman</title>
 </head>
 <body>
-    
+    <center>
+        <h1>The good old Hangman game</h1>
+        <div id = "hangmanDrawingDiv">
+
+        </div>
+        <br>
+        <div id = "inputDiv">
+            <input id = "userLetter" type ="text" minlength="1" maxlength="1" onkeypress='return (event.charCode >= 97 && event.charCode <= 122)'>
+            <input id = "submitLetter" type = "submit" onclick = saveLetter() value = "Submit letter">
+        </div>
+    </center>
 </body>
 </html>
