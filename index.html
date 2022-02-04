@@ -15,9 +15,13 @@
         </div>
         <br>
         <div id = "inputDiv">
-            <input id = "userLetter" type ="text" minlength="1" maxlength="1" onkeypress='return (event.charCode >= 97 && event.charCode <= 122)'>
+            <input id = "userLetter" placeholder = "Only one letter" type ="text" onblur="this.focus()" size="9" autofocus minlength="1" maxlength="1" onkeypress='return (event.charCode >= 97 && event.charCode <= 122)'>
             <input id = "submitLetter" type = "submit" onclick = saveLetter() value = "Submit letter">
         </div>
+        <br>
+        <p id = "partialGuess"></p>
+        <br>
+        <p id = "gameResult"></p>
     </center>
 </body>
 </html>
