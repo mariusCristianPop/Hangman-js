@@ -1,2 +1,2 @@
 # Hangman
- The classic hangman game
+[Click here to play](https://mariuscristianpop.github.io/Hangman-js)
